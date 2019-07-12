@@ -1,0 +1,41 @@
+
+int remainder(int a)
+{
+ int c=a%2;
+ return c;
+}
+
+
+int even=0;
+int odd=0;
+int x;
+
+int main()
+{
+ cout <<"Please give me a number" <<endl;
+ cin >> x;
+
+ if (x > 0)
+ {
+ 
+  for(int i=0; i <= x; i++)
+  { 
+    c= remainder(i);
+
+    if (c=0)
+    {
+     even++;
+    }
+    else
+    {
+     odd++;
+    }
+  }
+  cout <<"There are " <<even <<" numbers while there are "<<odd <<" numbers between 0 and "<<x <<"." <<endl;
+ }
+ else 
+ {
+  cout <<"ERROR!" <<endl;
+ }  
+
+}

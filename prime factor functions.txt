@@ -1,0 +1,31 @@
+int remainder(int a,int b)
+{
+ c=a%b;
+ return c;
+}
+
+int isPrime(int x)
+{
+ string temp="";
+ int y=x;
+ for(int i=2; y=1||i=x-1 ; i++)
+ { 
+   c=remainder(y,i);
+   
+   if (c=0)
+   {
+     y=y/i;
+     temp=temp+i;
+   }
+ }
+
+ if (temp.length > 0)
+ {
+  cout <<"Prime Factor" <<endl;
+ }
+ else
+ {
+  cout <<"Not a Prime Factor" <<endl;
+ }
+
+}

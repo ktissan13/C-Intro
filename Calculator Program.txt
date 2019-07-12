@@ -1,0 +1,64 @@
+cout << variable << endl;
+
+
+cout << "Please give me a value.. ." << endl;
+cin >> variable >> variable2 ; 
+
+int add(int a, int b)
+{
+ int c=a+b;
+ return c;
+}
+
+int subtract(a,b)
+{ 
+ c=a-b;
+ return c;
+}
+
+int multiply(a,b)
+{
+ c=a*b;
+ return c;
+}
+
+int divide(a,b);
+{
+ c=b/a;
+ return c;
+}
+
+
+int main();
+{
+ cout <<"Please giver me two values..." <<endl;
+ cin >> const double x >> const double y ;
+ cout <<"What do you want to do with these numbers?" <<endl;
+ cin >> string func ;
+
+ if (func==add)
+ {
+  add(x,y);
+  cout << "The answer is" <<c <<endl;
+ }
+ else if (func==subtract)
+ {
+  subtract(x,y);
+  cout << "The answer is" <<c <<endl;
+ }
+ else if (func==multiply)
+ {
+  multiply(x,y);
+  cout << "The answer is" <<c <<endl;
+ }
+ else if (func==divide) 
+ {
+  divide(x,y);
+  cout << "The answer is" <<c <<endl;
+ }
+ else 
+ { 
+  cout <<"ERROR !" <<endl;
+ }
+	
+}

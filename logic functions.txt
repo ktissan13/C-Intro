@@ -1,0 +1,5 @@
+Logic Functions for C++
+
+|| means or
+&& means and
+!= means does not equal 
